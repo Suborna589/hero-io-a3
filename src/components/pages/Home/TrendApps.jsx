@@ -21,7 +21,7 @@ const TrendApps = ({appsData}) => {
 
             </div> 
 
-            <button className='btn btn-primary text-white'>See All</button>
+            <button className='btn btn-primary text-white'>Show All</button>
             
         </div>
     );
