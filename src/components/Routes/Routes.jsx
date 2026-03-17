@@ -14,8 +14,10 @@ export const router =createBrowserRouter ([
         Component:Root,
 
         children:[
-        {    index:true, 
-             Component:Home,
+        {    index:true,
+            loader:() =>fetch('/apps.json'),
+             Component:Home, 
+
 
         },
         {

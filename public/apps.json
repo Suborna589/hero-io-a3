@@ -1,0 +1,219 @@
+[
+  {
+    "image": "https://example.com/app1.png",
+    "title": "ChatMaster",
+    "companyName": "TechSoft Ltd",
+    "id": 1,
+    "description": "A fast and secure messaging app.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "image": "https://example.com/app2.png",
+    "title": "PhotoEdit Pro",
+    "companyName": "PixelLab",
+    "id": 2,
+    "description": "Advanced photo editing tools.",
+    "size": 60,
+    "reviews": 2000,
+    "ratingAvg": 4.6,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1030 }
+    ]
+  },
+  {
+    "image": "https://example.com/app3.png",
+    "title": "FitLife",
+    "companyName": "HealthTech",
+    "id": 3,
+    "description": "Track your fitness and health goals.",
+    "size": 50,
+    "reviews": 1500,
+    "ratingAvg": 4.3,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://example.com/app4.png",
+    "title": "Foodie",
+    "companyName": "Yummy Inc",
+    "id": 4,
+    "description": "Discover and order food easily.",
+    "size": 55,
+    "reviews": 1800,
+    "ratingAvg": 4.4,
+    "downloads": 700000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "https://example.com/app5.png",
+    "title": "EduLearn",
+    "companyName": "SmartEdu",
+    "id": 5,
+    "description": "Online learning platform.",
+    "size": 70,
+    "reviews": 2200,
+    "ratingAvg": 4.7,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1170 }
+    ]
+  },
+  {
+    "image": "https://example.com/app6.png",
+    "title": "TravelMate",
+    "companyName": "Wander Co",
+    "id": 6,
+    "description": "Plan your trips easily.",
+    "size": 65,
+    "reviews": 1400,
+    "ratingAvg": 4.2,
+    "downloads": 550000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 430 }
+    ]
+  },
+  {
+    "image": "https://example.com/app7.png",
+    "title": "MusicBeat",
+    "companyName": "SoundWave",
+    "id": 7,
+    "description": "Stream your favorite music.",
+    "size": 80,
+    "reviews": 3000,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "image": "https://example.com/app8.png",
+    "title": "GameZone",
+    "companyName": "PlayHub",
+    "id": 8,
+    "description": "Play exciting mobile games.",
+    "size": 120,
+    "reviews": 5000,
+    "ratingAvg": 4.1,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://example.com/app9.png",
+    "title": "NoteKeeper",
+    "companyName": "Productive Apps",
+    "id": 9,
+    "description": "Organize your notes efficiently.",
+    "size": 30,
+    "reviews": 900,
+    "ratingAvg": 4.4,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "https://example.com/app10.png",
+    "title": "WeatherNow",
+    "companyName": "Climate Tech",
+    "id": 10,
+    "description": "Get real-time weather updates.",
+    "size": 25,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": 450000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://example.com/app11.png",
+    "title": "ShopEasy",
+    "companyName": "Ecom World",
+    "id": 11,
+    "description": "Online shopping made simple.",
+    "size": 90,
+    "reviews": 2700,
+    "ratingAvg": 4.5,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1080 }
+    ]
+  },
+  {
+    "image": "https://example.com/app12.png",
+    "title": "FinanceTrack",
+    "companyName": "MoneyWise",
+    "id": 12,
+    "description": "Manage your expenses easily.",
+    "size": 40,
+    "reviews": 1300,
+    "ratingAvg": 4.4,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 490 }
+    ]
+  }
+
+]
