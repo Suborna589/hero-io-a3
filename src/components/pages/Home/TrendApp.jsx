@@ -1,12 +1,15 @@
 import React from 'react';
 import { FaDownload, FaStar } from 'react-icons/fa';
+import { Link } from 'react-router';
 
 const TrendApp = ({appdata}) => {
-    const {image,title,companyName,downloads,ratingAvg} =appdata;
+    const {image,title,companyName,downloads,ratingAvg,id,} =appdata;
     return (
-     <div className="card bg-base-100 w-96 shadow-sm h-100">
-  <figure className='bg-gray-100 h-[290px]'>
-    <img className='w-[250px] '
+   <Link to={`./appDetails/${id}`}> 
+
+     <div className="card bg-base-100 w-72 md:w-[370px] shadow-sm h-100">
+  <figure className='bg-gray-100 h-[270px]'>
+    <img className='md:w-62  object-cover   hover:scale-105 duration-500 '
       src={image}
       alt="Shoes" />
   </figure>
@@ -16,12 +19,18 @@ const TrendApp = ({appdata}) => {
       <div className="">- {companyName}</div>
     </h2>
    
-    <div className="card-actions justify-between">
+    <div className="card-actions justify-between mt-5">
       <div className="badge text-[#39CC39] bg-gray-100"><FaDownload />{downloads}</div>
       <div className="badge text-[#F54927] bg-gray-100"><FaStar />{ratingAvg}</div>
     </div>
   </div>
 </div>
+   
+   
+   
+   
+   
+   </Link>
     );
 };
 
