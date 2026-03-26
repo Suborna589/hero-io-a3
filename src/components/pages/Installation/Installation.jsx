@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
 import Installed from './Installed';
 import { useState } from 'react';
 import { getStoredApp, removeToStoreDB} from '../../../utility/addToDB';
 import logo from "../../../assets/logo.png"
  import {ToastContainer ,  toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import notFound  from "../../../assets/App-Error.png"
 
 const Installation = () => { 
     const app = useLoaderData(); 
@@ -46,7 +47,9 @@ const Installation = () => {
         return installed;
       }
     }
-  ) ()    
+  ) ()  
+  
+  
  
 
 
@@ -59,7 +62,13 @@ const Installation = () => {
     autoClose: 2000,
   });
   const updated = installed.filter(app => app.id !== id);
-  setInstalled(updated);
+  setInstalled(updated); 
+
+
+
+
+
+
 }; 
 
 
@@ -110,6 +119,41 @@ const Installation = () => {
 
        </div>
 
+
+
+{ 
+
+!loading && sortedItem.length === 0 ? 
+
+ <div className="flex flex-col items-center justify-center mt-20 mb-20">
+      <img src={notFound} alt="Not Found" className="w-[400px]" />
+
+      <h2 className="text-3xl  uppercase font-bold mt-6">
+      Opps!! App Not Found
+      </h2>
+
+      <p className="text-gray-500 mt-2">
+       The app you are requesting is not found on our system.please try another apps
+      </p>
+
+      <Link to="/" className=" ml-45 md:ml-[6px] mt-5 mb-6 text-white btn bg-linear-to-r from-[#632ee3] to-[#9f62f2] mb-4">Go Back!</Link>
+
+    </div> 
+
+    :  
+    ('')
+
+
+
+
+}
+
+
+
+
+
+
+
       
 
           { 
@@ -130,10 +174,7 @@ const Installation = () => {
               {
                 sortedItem.map(appSingle =><Installed key={appSingle.id}
                  appSingle={appSingle}
-                 handleRemoveApp ={handleRemoveApp}
-                 >
-
-                  
+                 handleRemoveApp ={handleRemoveApp} >
 
                  </Installed>)
                  }
@@ -141,18 +182,11 @@ const Installation = () => {
 
 
                  </div>
-            
-          
+                 
             
               )
             
-            
-            
-
-
-
-
-
+          
           }
 
      

@@ -23,7 +23,7 @@ const AppDetails = () => {
 
     useEffect(() => {
        const storedApps = getStoredApp();
-        if (storedApps.includes(id)){
+        if (storedApps.includes(appId)){
         setIsInstall(true);
       }
        setLoading(true);
@@ -36,7 +36,7 @@ const AppDetails = () => {
 
    
    
-}, [id]);
+}, [appId]);
 
 
       if (!singleApp) {
