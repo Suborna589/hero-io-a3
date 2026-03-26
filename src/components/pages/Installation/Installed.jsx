@@ -5,6 +5,8 @@ import { FaDownload, FaStar } from 'react-icons/fa';
 
 
 
+
+
 const Installed = ({appSingle,handleRemoveApp }) => {
 
 
@@ -40,6 +42,7 @@ const Installed = ({appSingle,handleRemoveApp }) => {
 
             <div className=''>
                 <button onClick={()=>handleRemoveApp(id)} className='btn bg-green-400 text-white'>Uninstall</button>
+                    
               </div>
 
 
@@ -52,7 +55,7 @@ const Installed = ({appSingle,handleRemoveApp }) => {
         </div>
 
 
-
+     
         </div>
    
     );

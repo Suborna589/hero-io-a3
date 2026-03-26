@@ -4,6 +4,8 @@ import Installed from './Installed';
 import { useState } from 'react';
 import { getStoredApp, removeToStoreDB} from '../../../utility/addToDB';
 import logo from "../../../assets/logo.png"
+ import {ToastContainer ,  toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Installation = () => { 
     const app = useLoaderData(); 
@@ -19,6 +21,14 @@ const Installation = () => {
         const convertStoredApp = storedAppDAta.map(id=>parseInt(id))
         const installedList = app.filter(app=>convertStoredApp.includes(app.id));
         setInstalled(installedList); 
+
+
+         setLoading(true);
+           const timer = setTimeout(() => {
+             setLoading(false);
+           }, 500); 
+       
+           return () => clearTimeout(timer);
 
         
 
@@ -41,25 +51,19 @@ const Installation = () => {
 
 
   const handleRemoveApp = (id) => {
+
   removeToStoreDB(id);
 
- 
+ toast.success("App Uninstalled Successfully!", {
+    position: "top-right",
+    autoClose: 2000,
+  });
   const updated = installed.filter(app => app.id !== id);
   setInstalled(updated);
 }; 
 
 
 
-
-   
-        useEffect(() => {
-           setLoading(true);
-           const timer = setTimeout(() => {
-             setLoading(false);
-           }, 500); 
-       
-           return () => clearTimeout(timer);
-         }, []);
 
 
  
@@ -71,6 +75,8 @@ const Installation = () => {
 
     return (
         <div> 
+
+             <ToastContainer />
         <div className='text-center mt-12 '>
          <h1 className='text-5xl font-bold my-4'>Your Installed Apps</h1>
          <p className='text-xl text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
@@ -131,6 +137,8 @@ const Installation = () => {
 
                  </Installed>)
                  }
+
+
 
                  </div>
             
