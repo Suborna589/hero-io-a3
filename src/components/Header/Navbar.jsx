@@ -6,9 +6,9 @@ import logoImg  from '../../assets/logo.png'
 const Navbar = () => { 
     const links =(
       <>
-        <Link lassName='px-4' to={'/'}>Home</Link>
-        <Link className='px-4'  to={'/apps'}>Apps</Link>
-        <Link className='px-4'  to={"/installation"}>Installation</Link>
+        <Link lassName='px-4 ' to={'/'}>Home</Link>
+        <Link className='px-4 '  to={'/apps'}>Apps</Link>
+        <Link className='px-4 '  to={"/installation"}>Installation</Link>
       </>
     )
     return (

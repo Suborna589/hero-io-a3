@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 import Navbar from '../Header/Navbar';
 import { Outlet } from 'react-router';
 import Footer from '../Footer/Footer';
-// import ErrorPage from '../ErrorPage/ErrorPage'; 
 import logo from '../../assets/logo.png'
+
 
 const Root = () => {
     const[loading , setLoading]=useState(false)
@@ -32,11 +32,10 @@ const Root = () => {
                   
                   </div>
                 </div>) :
-                 <div className='  max-w-[580px] md:max-w-[1600px]    mx-auto '> 
+                 <div className='  max-w-[580px] md:max-w-[1600px]    mx-auto  min-h-screen'> 
        
             <Navbar></Navbar> 
             <Outlet></Outlet> 
-        
             <Footer></Footer>
          
             

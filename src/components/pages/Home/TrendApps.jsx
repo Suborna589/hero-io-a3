@@ -34,14 +34,6 @@ const TrendApps = ({appsData}) => {
               </Suspense>
         
    
-
-
-
-
-
-
-
-
         
 
             <Link to="/apps" className='btn bg-violet-600 text-white w-34 mt-5 mb-12'>Show All</Link>

@@ -31,7 +31,7 @@ const Apps = () => {
     return (
       
 
-        <div className='max-w-[1600px] mx-auto '> 
+        <div className='max-w-[1600px] mx-auto  min-h-screen mb-9'> 
        <div className='text-center mt-10'>
              <h1 className='text-5xl font-bold'>Our All Applications</h1>
             <p className='text-xl text-[#627382] py-5 '>Explore All Apps on the Market developed by us. We code for Millions</p> 
@@ -39,7 +39,7 @@ const Apps = () => {
        </div> 
 
        <div className='flex justify-between ml-7'>
-        <h1>({searchApps.length}) Apps Found</h1>
+        <h1 className='font-semibold text-2xl'>({searchApps.length}) Apps Found</h1>
        <label className='input' >
         <GoSearch  className='text-xl'/>
          <input 

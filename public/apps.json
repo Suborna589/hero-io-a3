@@ -1,7 +1,8 @@
 [
   {
     "image": "https://i.ibb.co.com/wFh6kQS7/Shopeasy.jpg",
-    "title": "ShopEasy",
+    "title": "ShopEasy :",
+    "subtitle": "Shop smarter, faster",
     "companyName": "Ecom World",
     "id": 1,
     "description": " ShopEasy is a shopping app where people can shop for men’s and women’s fashion with ease. The main aim of this app is to keep the user “front — and — center”. The user can browse through products, buy products, and track their order with ease. This app ensures to help the user from searching the product to the stage of receiving the products in user’s hand.Before designing for ShopEasy. I did some research on how this shopping app could solve user problems. There are lots of shopping apps out there, I took inspiration from them, observed their features, viewed the similarities and differences between different apps, and noted down some problems they need to focus on What I found was that the brand colour was generally used for buttons. Also, this colour wasnot used in any heading and in any paragraph. I researched about this and found that when the colour used in buttons are used in normal texts, it confuses the users that it performs some action ",
@@ -19,7 +20,8 @@
   },
   {
     "image": "https://i.ibb.co.com/7Njyjbvf/photo-pro.webp",
-    "title": "PhotoEdit Pro",
+    "title": "PhotoEdit Pro:",
+    "subtitle": "Edit photos like instantly",
     "companyName": "PixelLab",
     "id": 2,
     "description": "Photo Editor Pro is a popular, versatile, and user-friendly mobile application designed for quick and creative photo editing on Android. It is geared toward casual photographers looking to edit pictures like professionals without the steep learning curve of advanced software. The app allows users to create collages, apply filters, and make quick edits.The app offers a full suite of basic tools, including cropping, rotating, adjusting brightness, contrast, saturation, and hue.A key tool that allows users to easily remove or change the background of an image. Offers face-shaping tools, blemish removal, and skin smoothing for enhancing portraits.Allows users to combine multiple photos into a single layout with custom grids, stickers, and backgrounds.Some users may find that it lacks the advanced, high-end tools needed by professional photographers.",
@@ -37,7 +39,8 @@
   },
   {
     "image": "https://i.ibb.co.com/LXDKxYTy/fitlife.png",
-    "title": "FitLife",
+    "title": "FitLife-",
+    "subtitle": "Personal fitness companion",
     "companyName": "HealthTech",
     "id": 3,
     "description": "FitLife is a comprehensive health and fitness app, available on Google Play and Apple App Store, designed to help users achieve fitness goals through personalized workouts, nutrition planning, and activity tracking. Key features often include AI-powered coaching, strength training, weight tracking, and exercise video libraries, aiming to make fitness convenient for all levels. AI coaches create personalized workout plans and suggest weight, targeting both strength and cardio.Monitors weight, BMI, and daily activity to provide detailed stats and insights into fitness progress.Provides nutrition tips, recipes, and tools for logging daily water intake to promote a balanced lifestyle",
@@ -55,7 +58,8 @@
   },
   {
     "image": "https://i.ibb.co.com/fzvxKR3Y/Foodie.webp",
-    "title": "Foodie",
+    "title": "Foodie :",
+    "subtitle": "Delicious food  doorstep",
     "companyName": "Yummy Inc",
     "id": 4,
     "description": "Based on the provided search results, Foodi (often referred to as Foodi-BD) is a prominent, Bangladesh-based food delivery application established in 2022 that connects users with over 10,000+ restaurants and 100,000+ items. It is designed as a comprehensive food tech platform for ordering, delivery, and dining experiences. Delivers food from restaurants, as well as groceries, pharmaceuticals, and daily essentials.Provides an intuitive interface for browsing menus, selecting items, and placing orders for home or office delivery.ffers live tracking, allowing users to monitor their order status until delivery. Supports secure payments through methods including Cash on Delivery (COD) and Mobile Financial Services (MFS)",
@@ -73,7 +77,8 @@
   },
   {
     "image": "https://i.ibb.co.com/Q3PtNXcz/Edulearn.png",
-    "title": "EduLearn",
+    "title": "EduLearn -",
+    "subtitle": "Smart learning  simple",
     "companyName": "SmartEdu",
     "id": 5,
     "description": "EduLearn is a comprehensive, AI-powered mobile app and web platform designed for interactive, smart learning, featuring easy-to-understand video lessons and gamified quizzes. It helps students improve academic performance through real-time performance tracking and tailored test preparations.Tailored video lessons, comprehensive notes, and gamified challenges. Aligned with curriculum standards for school students and specialized for exam preparation.",
@@ -91,7 +96,8 @@
   },
   {
     "image": "https://i.ibb.co.com/gFh0M1pk/travel-mate.png",
-    "title": "TravelMate",
+    "title": "TravelMate :",
+    "subtitle": "Explore world with ease",
     "companyName": "Wander Co",
     "id": 6,
     "description": "TravelMate (by MyWoWo) is a comprehensive mobile application designed to enhance travel experiences by offering professional audio guides, interactive maps, and curated tourist information for exploring cities. It acts as a personal digital guide, providing smart content, trivia, and 24/7 assistance to make urban exploration engaging, informative, and accessible.Professional audio and text descriptions for major points of interest in cities worldwide. Access maps, routes, and travel content without needing an active internet connection.Features to create, organize, and manage travel itineraries, including checklists.",
@@ -109,7 +115,8 @@
   },
   {
     "image": "https://i.ibb.co.com/7J32mnVL/music.avif",
-    "title": "MusicBeat",
+    "title": "MusicBeat :",
+    "subtitle": "Create beats anytime",
     "companyName": "SoundWave",
     "id": 7,
     "description": "This is an app for creating music, making beats, and producing tracks directly on mobile devices.Drum pad machine, level-based lessons, and the ability to import sounds to create personalized beats.Beginners looking to learn music production and experienced users looking for an on-the-go tool.Advanced search and sorting by artist, album, or folder, plus a built-in sleep timer and workout mode. ",
@@ -128,7 +135,8 @@
   },
   {
     "image": "https://i.ibb.co.com/nsdB8frV/game-zone.avif",
-    "title": "GameZone",
+    "title": "GameZone -",
+    "subtitle": "Unlimited fun in one place",
     "companyName": "PlayHub",
     "id": 8,
     "description": "New games added regularly to keep the fun fresh and exciting! Game Zone is your go-to app for the best free to play games available on the market. Whether you're into casual games, strategy challenges, or competitive game zone game modes, there's always something new to try.",
@@ -146,7 +154,8 @@
   },
   {
     "image": "https://i.ibb.co.com/YBpY2yyw/Note-keeper.jpg",
-    "title": "NoteKeeper",
+    "title": "NoteKeeper :",
+    "subtitle": "Capture ideas organized",
     "companyName": "Productive Apps",
     "id": 9,
     "description": "NoteKeeper is a popular, user-friendly, and lightweight note-taking application designed for Android and web platforms, aimed at helping users capture ideas, manage tasks, and organize information efficiently. It is widely used for creating notes, to-do lists, checklists, and storing important information, acting as a personal digital notebook.Allows users to create, edit, and organize detailed notes with rich formatting options, including text formatting and bullet points.Notes can be organized into categories, folders, or multiple notebooks, making it easier to manage personal, work, or project-related information.Includes features to create to-do lists, set priorities, and add reminders to stay on top of daily tasks.",
@@ -164,7 +173,8 @@
   },
   {
     "image": "https://i.ibb.co.com/GQKThPDL/wheater.webp",
-    "title": "WeatherNow",
+    "title": "WeatherNow -",
+    "subtitle": "Stay  climate insights",
     "companyName": "Climate Tech",
     "id": 10,
     "description": "A Climate Tech app is a digital tool designed to mitigate or adapt to climate change by reducing greenhouse gas emissions, increasing energy efficiency, or fostering sustainable practices. These applications serve individuals, businesses, and cities by tracking carbon footprints, managing energy usage, or visualizing climate impacts using technologies like Artificial Intelligence (AI) and the Internet of Things (IoT).Users can measure, track, and reduce their personal or organizational carbon footprint with tools like CarbonTracker, which provides real-time data insights.These apps integrate with IoT devices (smart meters, thermostats) to optimize energy usage, such as EcoHome or fleet management tools, which reduce energy consumption.Apps like GreenRoute promote eco-friendly commuting by analyzing real-time traffic and emission data to guide user choices.",
@@ -182,7 +192,8 @@
   },
  {
     "image": "https://i.ibb.co.com/GQbmdnk1/Mails.png",
-    "title": "MailBox",
+    "title": "MailBox :",
+     "subtitle": "Manage emails efficiently",
     "companyName": "GoogleComm",
     "id": 11,
     "description": "Mailbox was a popular, now-discontinued, email management application for iOS and Android developed by Orchestra, Inc. and later acquired by Dropbox. It was widely acclaimed for its minimalist interface and revolutionary swipe-to-act gestures designed to achieve Inbox Zero. Users could manage emails by swiping, allowing quick archiving, deleting, or snoozing of messages.The app was designed to empty the user’s inbox, treating emails more like a to-do list, using folders instead of leaving them in the inbox.A prominent feature allowed users to swipe to snooze emails, making them disappear and reappear at a specific later time or date Known for a clean, attractive, and highly intuitive design.",
@@ -200,7 +211,8 @@
   },
   {
     "image": "https://i.ibb.co.com/CKrpstS9/Finance.webp",
-    "title": "FinanceTrack",
+    "title": "FinanceTrack :",
+    "subtitle": "Track  money smartly",
     "companyName": "MoneyWise",
     "id": 12,
     "description": "Based on the search results, there are a few apps with similar names, with the most prominent being Finance Track – Daily Expense. Finance Track – Daily Expense is designed as a personal finance management tool focused on tracking spending, managing income, and fostering better financial habits.Allows users to log daily spending and income to get a clear overview of their financial health.Enables setting spending limits to manage budgets effectively.Generates monthly reports with detailed insights into spending habits Supports managing multiple bank accounts, wallets, and cash in one place.",
@@ -220,8 +232,8 @@
   
   {
     "id": 13,
-    "title": "RideNow",
-    "subtitle": "Instant Rides, Seamless Travel",
+    "title": "RideNow - ",
+    "subtitle": "Instant Rides, Travel",
     "companyName": "UrbanMove Ltd.",
     "image": "https://i.ibb.co.com/HTQBRngW/Ridenow.jpg",
     "description": "RideNow is a ride-hailing app that offers fast, reliable transportation with real-time tracking and seamless payment options. Users can book rides instantly, choose vehicle types, and track drivers from pickup to drop-off. The app provides fare estimates, route optimization, and rating systems to ensure quality service. RideNow also includes safety features, such as driver verification and emergency alerts, giving users confidence during travel. Regular promotions, loyalty programs, and in-app communication enhance the user experience. Ideal for daily commuters, travelers, and city explorers, RideNow ensures convenient, affordable, and efficient mobility. By combining technology, safety measures, and intuitive navigation, the app delivers a seamless transportation solution for users seeking reliable rides and a stress-free travel experience within urban environments.",
@@ -239,8 +251,8 @@
   },
   {
     "id": 14,
-    "title": "HealthScan",
-    "subtitle": "Track Health, Stay Informed",
+    "title": "HealthScan :",
+    "subtitle": "Track Health, Informed",
     "companyName": "MediTech Analytics",
     "image": "https://i.ibb.co.com/21Vx3w9J/Health-Scan.webp",
     "description": "HealthScan is a comprehensive health monitoring app that enables users to track vital signs, receive AI-driven insights, and connect with healthcare professionals remotely. The app monitors parameters such as heart rate, blood pressure, glucose levels, and sleep patterns. Users can maintain digital health records, set reminders for medications, and receive personalized health tips. HealthScan integrates wearable devices for accurate data collection and provides trend analysis to detect early signs of potential health issues. The app also supports telemedicine consultations, appointment scheduling, and secure data sharing with medical providers. Designed for individuals seeking proactive health management, HealthScan combines advanced technology, user-friendly design, and personalized insights to empower users in making informed decisions, maintaining wellness, and achieving long-term health goals with convenience and reliability.",
@@ -258,7 +270,7 @@
   },
   {
     "id": 15,
-    "title": "PetPal",
+    "title": "PetPal - ",
     "subtitle": "Connect with Pet Lovers",
     "companyName": "FurryFriends Co.",
     "image": "https://i.ibb.co.com/F4CStMGD/Petpal.png",
@@ -281,8 +293,8 @@
   
   {
     "id": 16,
-    "title": "Snapseed",
-    "subtitle": "Professional Photo Editing by Google",
+    "title": "Snapseed :",
+    "subtitle": "Professional Photo ",
     "companyName": "Google LLC",
     "image": "https://i.ibb.co.com/rf6n0cWf/snapseed.jpg",
     "description": "Snapseed is a powerful and professional photo editing app developed by Google, offering an extensive suite of tools and filters designed for high-quality image enhancement. Users can fine-tune images with precise adjustments for brightness, contrast, saturation, and sharpness, as well as apply creative effects and specialized filters. Snapseed supports RAW photo editing, enabling photographers to work with unprocessed files while maintaining full image quality. Its intuitive interface allows easy navigation of features such as healing, brush tools, selective adjustments, and perspective correction. Users can also combine multiple edits, experiment with artistic styles, and save custom presets for future projects. Snapseed’s versatility makes it ideal for both casual users and professional photographers, allowing the creation of stunning, high-resolution images suitable for social media, portfolios, or print. With regular updates, Snapseed continues to expand its editing capabilities and creative possibilities.",
@@ -300,8 +312,8 @@
   },
   {
     "id": 17,
-    "title": "Spotify",
-    "subtitle": "Music & Podcasts for Everyone",
+    "title": "Spotify :",
+    "subtitle": "Music & Podcasts Everyone",
     "companyName": "Spotify AB",
     "image": "https://i.ibb.co.com/Xx5gzY6p/Spotify.webp",
     "description": "Spotify is a leading music streaming platform that provides access to millions of songs, playlists, and podcasts for listeners around the world. Users can discover new music through personalized recommendations, curated playlists, and trending charts. Spotify allows seamless playback across multiple devices, supports offline listening, and integrates with smart home systems for an uninterrupted audio experience. The platform also offers social features such as sharing playlists, following friends, and collaborative playlist creation. Podcast enthusiasts can explore diverse topics including education, entertainment, and news, all in one app. With high-quality audio options, advanced search features, and user-friendly interface, Spotify is suitable for casual listeners and audiophiles alike. Whether discovering new music, enjoying favorite albums, or exploring exclusive podcasts, Spotify offers a comprehensive entertainment experience designed to keep users engaged and connected to the global music community.",
@@ -319,7 +331,7 @@
   },
   {
     "id": 18,
-    "title": "Canva",
+    "title": "Canva -",
     "subtitle": "Design Anything, Easily",
     "companyName": "Canva Pty Ltd",
     "image": "https://i.ibb.co.com/7xcqRDMK/Canva.png",
@@ -338,8 +350,8 @@
   },
   {
     "id": 19,
-    "title": "LinkedIn",
-    "subtitle": "Professional Networking Simplified",
+    "title": "LinkedIn -",
+    "subtitle": "Professional Networking ",
     "companyName": "LinkedIn Corporation",
     "image": "https://i.ibb.co.com/SXJG6LcD/LinkedIn.png",
     "description": "LinkedIn is the premier professional networking platform that connects users with peers, companies, and career opportunities worldwide. It allows users to create detailed profiles showcasing their experience, skills, and achievements, while also enabling them to follow industry leaders, join professional groups, and participate in discussions. LinkedIn provides job search tools, career development resources, and personalized recommendations for connections and content. Businesses can leverage LinkedIn for recruiting talent, promoting their brand, and sharing company updates. Users can post articles, engage with content, and build credibility in their respective fields. LinkedIn’s analytics and networking features empower professionals to stay informed about industry trends, expand their network strategically, and foster meaningful professional relationships. By combining social networking, career advancement, and knowledge sharing, LinkedIn offers a comprehensive platform for personal and professional growth.",
@@ -357,8 +369,8 @@
   },
   {
     "id": 20,
-    "title": "Pinterest",
-    "subtitle": "Discover and Save Ideas",
+    "title": "Pinterest :",
+    "subtitle": "Discover & Save Ideas",
     "companyName": "Pinterest, Inc.",
     "image": "https://i.ibb.co.com/9HCXJHcT/pintest.jpg",
     "description": "Pinterest is a visual discovery platform that helps users find, organize, and save creative ideas for projects, lifestyle inspiration, home decor, fashion, cooking, and more. Users can browse through millions of pins, create boards to categorize their interests, and follow others to explore trending content. Pinterest’s powerful search and recommendation algorithms ensure users discover ideas tailored to their preferences. It also supports collaboration, allowing multiple users to contribute to shared boards for group projects or planning events. With easy sharing, saving, and cross-device syncing, Pinterest provides a seamless experience for collecting inspiration anytime. The platform empowers creativity, planning, and self-expression, while offering insights into trends and community favorites. Pinterest is ideal for individuals, hobbyists, and professionals looking to explore new ideas and bring creative visions to life efficiently and visually.",

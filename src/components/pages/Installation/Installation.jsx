@@ -64,26 +64,11 @@ const Installation = () => {
   const updated = installed.filter(app => app.id !== id);
   setInstalled(updated); 
 
-
-
-
-
-
 }; 
 
 
-
-
-
- 
-
-
-
-
-  
-
     return (
-        <div> 
+        <div className=' max-w-[580px] md:max-w-[1600px]    mx-auto  min-h-screen'> 
 
              <ToastContainer />
         <div className='text-center mt-12 '>
@@ -91,10 +76,10 @@ const Installation = () => {
          <p className='text-xl text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
         </div> 
 
-       <div className='flex justify-between'>
+       <div className='flex justify-between space-y-8 mt-12'>
 
         <div>
-            <h1>{sortedItem.length} Apps Found</h1>
+            <h1 className='text-2xl font-semibold'>{sortedItem.length} Apps Found</h1>
         </div>
 
      <label className='form-control w-full max-w-xs'>
@@ -103,15 +88,11 @@ const Installation = () => {
                 onChange={(e)=>setSortSize(e.target.value)}
                 className="select select-bordered">
    
-        <option value=''>Sort by size</option>  
+        <option className='text-base text-[#627382]' value=''>Sort by size</option>  
         <option  value='size-asc'>High-Low </option>
         <option  value='size-desc'>Low-High</option>
  
       </select>
-
-
-
-
 
      </label>
 
@@ -123,9 +104,9 @@ const Installation = () => {
 
 { 
 
-!loading && sortedItem.length === 0 ? 
+     !loading && sortedItem.length === 0 ? 
 
- <div className="flex flex-col items-center justify-center mt-20 mb-20">
+      <div className="flex flex-col items-center justify-center mt-20 mb-20">
       <img src={notFound} alt="Not Found" className="w-[400px]" />
 
       <h2 className="text-3xl  uppercase font-bold mt-6">
@@ -144,17 +125,7 @@ const Installation = () => {
     ('')
 
 
-
-
 }
-
-
-
-
-
-
-
-      
 
           { 
 
@@ -162,8 +133,6 @@ const Installation = () => {
                   
                      <div className="fixed inset-0 flex items-center justify-center bg-white/60 z-50">
                      <img src={logo} alt="" className="w-24 animate-spin " /> <span className='text-2xl text-[#632ee3] ml-3 font-bold'>Loading Spinner...</span>
-                    
-               
                 
                 </div>
               </div>) : (
@@ -178,8 +147,6 @@ const Installation = () => {
 
                  </Installed>)
                  }
-
-
 
                  </div>
                  

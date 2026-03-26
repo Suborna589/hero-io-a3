@@ -6,9 +6,7 @@ import { Link, useLoaderData } from 'react-router';
 import { useParams } from 'react-router';
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { addToStoredDB, getStoredApp } from '../../../utility/addToDB';
-import  notFound from  "../../../assets/App-Error.png"
-
-  import { ToastContainer, toast } from 'react-toastify';
+ import { ToastContainer, toast } from 'react-toastify';
 
 
 const AppDetails = () => {
@@ -20,7 +18,6 @@ const AppDetails = () => {
      const singleApp = appData.find(app=> app.id === appId);
 
          
-
     useEffect(() => {
        const storedApps = getStoredApp();
         if (storedApps.includes(appId)){
@@ -39,17 +36,6 @@ const AppDetails = () => {
 }, [appId]);
 
 
-      if (!singleApp) {
-        return (
-            <div className="flex-1">
-                <img src={notFound} alt="Not Found" />
-                <h2>OOPS!! APP NOT FOUND</h2>
-                <Link to="/">Go Back!</Link>
-            </div>
-        );
-    }
-
-
      const handleInstalled = () => {
 
         toast("Installation Successfully!")
@@ -63,7 +49,7 @@ const AppDetails = () => {
     }; 
 
 
-     const {image,title,companyName,downloads,ratingAvg,reviews,size,ratings,description}=singleApp;
+     const {image,title,companyName,downloads,ratingAvg,reviews,size,ratings,description,subtitle}=singleApp;
          
 
 
@@ -75,24 +61,22 @@ const AppDetails = () => {
         {
             loading? (<div className="flex justify-center items-center py-20">
                                     
-                                       <div className="fixed inset-0 flex items-center justify-center bg-white/60 z-50">
-                                       <img src={logo} alt="" className="w-24 animate-spin " /> <span className='text-2xl text-[#632ee3] ml-3 font-bold'>Loading Spinner...</span>
-                                      
-                                 
-                                  
-                                  </div>
-                                </div>) : 
+                       <div className="fixed inset-0 flex items-center justify-center bg-white/60 z-50">
+                        <img src={logo} alt="" className="w-24 animate-spin " /> <span className='text-2xl text-[#632ee3] ml-3 font-bold'>Loading Spinner...</span>
+                                       
+                        </div>
+                        </div>) : 
             
             
             
             (
                  <div className='mt-11 mb-14'> 
-            <div className='flex  gap-28 max-w-7xl mx-auto '>
+            <div className=' flex-cols-1 md:flex  gap-28 max-w-7xl mx-auto  '>
                 <div className='bg-gray-100 w-[260px] h-[250px] p-3 rounded-xl '>
                     <img src={image} alt="" className='w-[260px] h-[225px]   object-cover rounded-sm  pl-0 pt-0 hover:scale-105 duration-500 ' />
                 </div>
                 <div className=' '>
-                    <h1 className='text-3xl font-bold'>{title}</h1>
+                    <h1 className='text-2xl font-bold'>{title}{subtitle}</h1>
                     <p>Developed by <span className='text-indigo-600'>{companyName}</span></p>
                     <div className=' border-t-1 border-gray-300 mb-5 mt-5 w-124'> </div>
                        <div className='flex gap-8'>
@@ -132,11 +116,11 @@ const AppDetails = () => {
     
             </div> 
 
-          <div className=' border-t-1 border-gray-300 mb-5 mt-5 w-400'> </div>
+          <div className=' border-t-1 border-gray-300 mb-5 mt-5 w-full'> </div>
 
                 <div>
 
-        <div className=" max-w-7xl mx-auto  h-[500px] p-4 bg-base-200 rounded-2xl shadow-md ml-32 ">
+        <div className="  md:max-w-7xl mx-auto  h-[500px] p-4 bg-base-200 rounded-2xl shadow-md ml-32 ">
         <h2 className="text-xl font-semibold mb-4 text-left pt-5 pb-6">Ratings</h2>
         <ResponsiveContainer width={780} height={380}>
           <BarChart data={ratings}>
@@ -158,16 +142,6 @@ const AppDetails = () => {
         </div>
             )
         }
-
-
-
-
-
-
-
-
-
-
 
        </div>
     );
